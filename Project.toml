@@ -3,6 +3,9 @@ uuid = "e46aa908-4c54-40d5-94de-678bb20abb10"
 authors = ["Takafumi Arakaki <aka.tkf@gmail.com> and contributors"]
 version = "0.1.0-DEV"
 
+[deps]
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+
 [compat]
 julia = "1"
 
