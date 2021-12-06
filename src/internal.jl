@@ -66,7 +66,7 @@ end
 default_message() = "Update @$(gethostname())"
 
 function git_is_clean(dir)
-    output = read(setenv(`git status --porcelain --untracked-files=no`; dir = dir), String)
+    output = read(setenv(`git status --porcelain`; dir = dir), String)
     return all(isspace, output)
 end
 
